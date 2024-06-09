@@ -65,4 +65,6 @@ primeiro, dentro da função on, que já possui o e.preventDefault();, vamos cri
 primeiro a **const** enderecoNovaImagem = (cifrao)(#endereco-imagem-nova).val();  
 depois a **const** novoItem = (cifrao)('li style="display:none;"/li')  
 depois utilizamos a função appendTo(novoItem) para adicionar a tag img com enderecoNovaImagem e a nova div com enderecoNovaImagem a novoItem, por fim adicionamos novoItem a ul usando a mesma função e fazemos com que novoItem apareça com a função fadeIn(2000), 2000 milisegundos, finalizamos a função zerando novamente o valor do input selecionando com o cifrão o elemento e zerando seu valor com a função val();  
-
+#### **Anotações extra**
+www.pixabay.com - para imagens gratuitas  
+www.tinypng.com - para compressão de imagens
